@@ -109,6 +109,7 @@ h1 {
     text-transform: uppercase;
     background: linear-gradient(135deg, #fff, var(--accent-color));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
