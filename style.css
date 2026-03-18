@@ -72,9 +72,8 @@ body {
     display: none;
 }
 
-/* Fix logo blend mode for light background */
+/* Invert white transparent logo for light background */
 [data-theme="light"] .logo {
-    mix-blend-mode: multiply;
     filter: invert(1);
 }
 
@@ -134,7 +133,6 @@ body {
     margin-bottom: 2rem;
     opacity: 0.9;
     transition: opacity 0.3s ease;
-    mix-blend-mode: screen;
 }
 
 .logo:hover {
